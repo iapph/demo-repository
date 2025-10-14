@@ -1,8 +1,36 @@
-![Auto Assign](https://github.com/iapph/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
+# Rsbuild project
 
-![Proof HTML](https://github.com/iapph/demo-repository/actions/workflows/proof-html.yml/badge.svg)
+## Setup
 
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+Install the dependencies:
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+```bash
+pnpm install
+```
+
+## Get started
+
+Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
+
+```bash
+pnpm dev
+```
+
+Build the app for production:
+
+```bash
+pnpm build
+```
+
+Preview the production build locally:
+
+```bash
+pnpm preview
+```
+
+## Learn more
+
+To learn more about Rsbuild, check out the following resources:
+
+- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
+- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
